@@ -20,11 +20,11 @@ querySnapshot.forEach((doc) => {
         <img src="${Rentas.foto}" alt="${Rentas.nombre}" class="rounded-xl mx-auto pl-4 pr-4 mt-8"> 
         </div> 
         </div> 
-        <div class="h-full mx-auto bg-white pb-2 mt-4 rounded-2xl text-black font-serif inline-block ml-20"> 
+        <div class=" w-48 h-full mx-auto bg-white mb-10 pb-4 rounded-md text-black inline-block mt-8 ml-20"> 
         
         <div class="text-center">${Rentas.precio} </div>  
-        <div class="text-block">${Rentas.baños} baños 
-         ${Rentas.camas} camas </div> 
+        <div class="text-center">${Rentas.baños} baños </div>
+        <div class="text-center">${Rentas.camas} camas </div> 
         <div class="text-center">${Rentas.direccion} </div> 
          
         </div> 
