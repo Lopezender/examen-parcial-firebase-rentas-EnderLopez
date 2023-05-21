@@ -22,10 +22,10 @@ querySnapshot.forEach((doc) => {
         </div> 
         <div class=" w-48 h-full mx-auto bg-white mb-10 pb-4 rounded-md text-black inline-block mt-8 ml-20"> 
         
-        <div class="text-center">${Rentas.precio} </div>  
-        <div class="text-center">${Rentas.baños} baños </div>
-        <div class="text-center">${Rentas.camas} camas </div> 
-        <div class="text-center">${Rentas.direccion} </div> 
+        <div class="text-center mb-2 font-semibold">${Rentas.precio} </div>  
+        <div class="text-center mb-2 font-semibold">${Rentas.baños} baños </div>
+        <div class="text-center mb-2 font-semibold">${Rentas.camas} camas </div> 
+        <div class="text-center mb-2 font-semibold">${Rentas.direccion} </div> 
          
         </div> 
        
