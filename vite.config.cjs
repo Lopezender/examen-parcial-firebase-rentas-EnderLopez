@@ -5,7 +5,7 @@ env.mode = env.mode || "production";
 export default defineConfig({
   root: "./",
   //:home: En esta linea se cambia la frase /eventos-app/ por el nombre de su repositorio
-  base: env.mode === "production" ? "/examen-firebase-renta-EnderLopez/" : "/",
+  base: env.mode === "production" ? "/examen-parcial-firebase-rentas-EnderLopez/" : "/",
   build: {
     target: "esnext",
     outDir: "docs",
